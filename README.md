@@ -49,13 +49,13 @@ git add nombreDelArchivo.extensión
 git commit -m "comentario relacionado al cambio"
 ```
 
-- Para ver una linea de tiempo de los commits que hemos realizado(para salir presionamos la letra q):
+- Para ver una linea de tiempo de los commits que hemos realizado:
 
 ```bash
 git log
 ```
 
-- Para poder ver el detalle de un commit específico usamos:
+- Para poder ver el detalle de un commit específico usamos(para salir presionamos la letra q):
 
 ```bash
 git show id-de-commit
