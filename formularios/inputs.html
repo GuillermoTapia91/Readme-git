@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section>
+      <h1>Formularios</h1>
+      <!-- form sive para crear un formulario -->
+      <form action="">
+        <!-- Los input tienen tipos, por defecto son de tipo text -->
+        <p>
+          <input type="text" name="name" placeholder="Escribe tu nombre" required autocomplete="off" />
+        </p>
+        <p>
+          <input type="email" name="email" placeholder="Escribe tu correo" value="correo@gmail.com"/>
+        </p>
+        <p>
+          <input type="password" name="password" placeholder="Escribe una contraseña segura" disabled />
+        </p>
+        <p>
+          <input type="file" accept="image/*" name="image" />
+        </p>
+        <p><input type="number" name="phone-number" placeholder="Escribe un número" /></p>
+        <p><input type="date" name="date"/></p>
+        <p><input type="time"  name="time"/></p>
+        <p>
+          <input type="datetime-local" name="date-time"/>
+        </p>
+        <p>
+          <input type="checkbox" name="terms" id="" />
+          Acepta los terminos y condiciones
+        </p>
+        <p>
+          <h4>Escoge una opcion</h4>
+        </p>
+       
+        <p><input type="radio" name="option" checked/> Option1</p>
+        <p><input type="radio" name="option"/> Option2</p>
+        <p><input type="radio" name="option"/> Option3</p>
+        <p><input type="color"></p>
+        <!-- Tambien existe el input tipo submit, y tiene la misma función pero no es tan configurable como un  boton -->
+        <p><button type="submit">Enviar datos</button></p>
+
+      </form>
+    </section>
+  </body>
+</html>
